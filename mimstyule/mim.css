@@ -1,0 +1,610 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.contein {
+  width: 700px;
+  height: 1200px;
+  background: rgb(189, 188, 188);
+  margin: auto;
+  z-index: -100;
+}
+.body {
+  width: 400px;
+  height: 600px;
+  background-color: rgb(230, 247, 2);
+  border-radius: 50% 50% 30% 30%;
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  left: 145px;
+}
+.glux {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(230, 247, 2);
+  border-radius: 50% 50% 30% 30%;
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  left: 145px;
+}
+.beran {
+  width: 130px;
+  height: 80px;
+  background-color: rgb(252, 166, 7);
+  position: absolute;
+  border-radius: 50%;
+  left: 280px;
+  top: 350px;
+}
+.beran_1 {
+  width: 130px;
+  height: 80px;
+  background-color: rgb(230, 247, 2);
+  position: absolute;
+  border-radius: 50%;
+  left: 280px;
+  top: 345px;
+}
+.goti {
+  width: 400px;
+  height: 50px;
+  background-color: rgb(158, 96, 2);
+  position: absolute;
+  left: 145px;
+  top: 275px;
+}
+.goti_1 {
+  width: 400px;
+  height: 20px;
+  background-color: rgb(5, 5, 5);
+  position: absolute;
+  left: 145px;
+  top: 290px;
+}
+
+.ajq_1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(192, 190, 190);
+  z-index: 3;
+  position: absolute;
+  left: 50px;
+  top: 120px;
+}
+.ajq_2 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: rgb(243, 217, 170);
+  z-index: 4;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+.ajq_3 {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: rgb(252, 250, 247);
+  z-index: 4;
+  position: absolute;
+  left: 7px;
+  top: 7px;
+}
+.ajq_4 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rgb(168, 90, 2);
+  left: 48px;
+  top: 30px;
+}
+.ajq_5 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(243, 178, 82);
+  position: absolute;
+  left: 25px;
+  top: 20px;
+}
+.ajq_6 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(192, 190, 190);
+  z-index: 3;
+  position: absolute;
+  left: 200px;
+  top: 120px;
+}
+.ajq_7 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: rgb(243, 217, 170);
+  z-index: 4;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+.ajq_8 {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: rgb(252, 250, 247);
+  z-index: 4;
+  position: absolute;
+  right: 7px;
+  top: 7px;
+}
+.ajq_9 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rgb(168, 90, 2);
+  right: 48px;
+  top: 30px;
+}
+.ajq_10 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(243, 178, 82);
+  position: absolute;
+  right: 25px;
+  top: 20px;
+}
+.zi_1 {
+  width: 100px;
+  height: 60px;
+  background-color: rgb(230, 247, 2);
+  z-index: 1;
+  position: absolute;
+  left: 130px;
+  top: 175px;
+}
+.shal {
+  width: 400px;
+  height: 200px;
+  background-color: rgb(9, 85, 199);
+  border-radius: 0% 0% 80% 80%;
+  margin: auto;
+  position: absolute;
+  top: 430px;
+  border-top: 4px solid black;
+}
+.shal_1 {
+  width: 180px;
+  height: 74px;
+  background-color: rgb(9, 85, 199);
+  position: absolute;
+  left: 110px;
+  top: 360px;
+  z-index: 5;
+  border-top: black 4px solid;
+  border-left: black 4px solid;
+  border-right: black 4px solid;
+}
+.grp {
+  width: 114px;
+  height: 90px;
+  background-color: #fff;
+  border-radius: 0 0 100% 0;
+  top: 434px;
+  z-index: 5;
+  border: solid 6px black;
+}
+.grp_1 {
+  width: 108px;
+  height: 89px;
+  background-color: rgb(9, 85, 199);
+  border-radius: 0 0 100% 0;
+  bottom: 6px;
+  right: 5px;
+  z-index: 5;
+}
+.grp_2 {
+  width: 114px;
+  height: 90px;
+  background-color: #fff;
+  border-radius: 0 0 0 100%;
+  top: 434px;
+  z-index: 5;
+  border: solid 6px black;
+  position: absolute;
+  left: 286px;
+}
+.grp_3 {
+  width: 108px;
+  height: 89px;
+  background-color: rgb(9, 85, 199);
+  border-radius: 0 0 0 100%;
+  bottom: 6px;
+  z-index: 5;
+}
+.doshimec {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(9, 85, 199);
+  position: absolute;
+  left: 150px;
+  bottom: 130px;
+  z-index: 7;
+  border-radius: 0 0 20px 20px;
+  outline: solid black 5.5px;
+}
+.sev {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgb(26, 25, 25);
+  left: 15px;
+  top: 15px;
+}
+.spitak {
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  left: 17px;
+  top: 17px;
+  transform: rotate(45deg);
+}
+.sevgic {
+  height: 11px;
+  width: 25px;
+  background-color: rgb(14, 13, 13);
+  position: absolute;
+  left: 35px;
+  bottom: 28px;
+  z-index: 11;
+}
+.kaputgic {
+  height: 5px;
+  width: 35px;
+  background-color: rgb(9, 85, 199);
+  position: absolute;
+  bottom: 0px;
+  z-index: 11;
+}
+.sev_1 {
+  width: 23px;
+  height: 23px;
+  background-color: rgb(14, 13, 13);
+  position: absolute;
+  left: 40px;
+  top: 42px;
+  z-index: 10;
+  border-radius: 50%;
+}
+.kant {
+  width: 155px;
+  height: 25px;
+  position: absolute;
+  background-color: rgb(9, 85, 199);
+  border: solid 5px black;
+  z-index: 15;
+  left: 130px;
+  top: 430px;
+  border-radius: 0 0 0 25px;
+  transform: rotate(25deg);
+}
+.kant_1 {
+  width: 155px;
+  height: 25px;
+  position: absolute;
+  background-color: rgb(9, 85, 199);
+  border: solid 5px black;
+  z-index: 15;
+  right: 140px;
+  top: 430px;
+  border-radius: 25px 0 0px 0px;
+  transform: rotate(155deg);
+}
+.ket {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(20, 20, 20);
+  border-radius: 50%;
+  position: absolute;
+  left: 120px;
+}
+.ket_1 {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(20, 20, 20);
+  border-radius: 50%;
+  position: absolute;
+  left: 120px;
+}
+.tev_aj {
+  width: 80px;
+  height: 160px;
+  background-color: rgb(230, 247, 2);
+  position: absolute;
+  top: 420px;
+  left: 100px;
+  border-radius: 50px 50px 0 0;
+}
+.mech {
+  width: 10px;
+  height: 120px;
+  background-color: rgb(212, 209, 209);
+  top: 40px;
+  left: 35px;
+  border-radius: 25px 0 0px 0px;
+}
+.tev_aj_1 {
+  width: 80px;
+  height: 160px;
+  background-color: rgb(230, 247, 2);
+  position: absolute;
+  top: 420px;
+  right: 110px;
+  border-radius: 50px 50px 0 0;
+}
+.mech_1 {
+  width: 10px;
+  height: 120px;
+  background-color: rgb(212, 209, 209);
+  top: 40px;
+  left: 35px;
+  border-radius: 0px 25px 0px 0px;
+}
+.horiz {
+  width: 50px;
+  height: 8px;
+  background-color: black;
+  border-radius: 5px;
+  position: absolute;
+  top: 580px;
+  left: 93px;
+}
+.horiz_1 {
+  width: 50px;
+  height: 8px;
+  background-color: black;
+  border-radius: 5px;
+  position: absolute;
+  top: 588px;
+  left: 93px;
+}
+.horiz_3 {
+  width: 50px;
+  height: 8px;
+  background-color: black;
+  border-radius: 5px;
+  position: absolute;
+  top: 580px;
+  right: 103px;
+}
+.horiz_4 {
+  width: 50px;
+  height: 8px;
+  background-color: black;
+  border-radius: 5px;
+  position: absolute;
+  top: 588px;
+  right: 103px;
+}
+.mat {
+  width: 16px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+  top: 590px;
+  left: 95px;
+}
+.mat_1 {
+  width: 18px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50px;
+  top: 550px;
+  left: 109px;
+}
+.mat_2 {
+  width: 16px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+  top: 500px;
+  left: 125px;
+}
+.mat_3 {
+  width: 16px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+  top: 460px;
+  left: 579px;
+}
+.mat_4 {
+  width: 18px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50px;
+  top: 420px;
+  left: 563px;
+}
+.mat_5 {
+  width: 16px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+  top: 369px;
+  left: 549px;
+}
+.vot {
+  width: 90px;
+  height: 50px;
+  background-color: rgb(9, 85, 199);
+  border-radius: 15px 0 0 32px;
+  position: absolute;
+  top: 698px;
+  left: 220px;
+}
+.vot_2 {
+  width: 80px;
+  height: 50px;
+  background-color: rgb(9, 85, 199);
+  border-radius: 15px 0 0 32px;
+  position: absolute;
+  top: 728px;
+  left: 230px;
+}
+.vot_3 {
+  width: 70px;
+  height: 50px;
+  background-color: rgb(9, 85, 199);
+  border-radius: 15px 0 10px 32px;
+  position: absolute;
+  top: 758px;
+  left: 240px;
+}
+.vot_4 {
+  width: 90px;
+  height: 50px;
+  background-color: rgb(9, 85, 199);
+  border-radius: 0px 0px 32px 0px;
+  position: absolute;
+  top: 698px;
+  left: 370px;
+}
+.vot_5 {
+  width: 80px;
+  height: 50px;
+  background-color: rgb(9, 85, 199);
+  border-radius: 0px 0 32px 0px;
+  position: absolute;
+  top: 728px;
+  left: 370px;
+}
+.vot_6 {
+  width: 70px;
+  height: 50px;
+  background-color: rgb(9, 85, 199);
+  border-radius: 15px 0 32px 10px;
+  position: absolute;
+  top: 758px;
+  left: 370px;
+}
+.koshik {
+  width: 60px;
+  height: 35px;
+  background-color: black;
+  border-radius: 9px 9px 0px 0px;
+  position: absolute;
+  top: 805px;
+  left: 250px;
+}
+hr {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
+.kosh_1 {
+  width: 50px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50px 50px 0px 0px;
+  position: absolute;
+  top: 817px;
+  left: 225px;
+}
+hr {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
+.kosh_3 {
+  width: 50px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50px 50px 0px 0px;
+  position: absolute;
+  top: 817px;
+  left: 1000px;
+}
+hr {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
+.koshik_2 {
+  width: 60px;
+  height: 35px;
+  background-color: black;
+  border-radius: 9px 9px 0px 0px;
+  position: absolute;
+  top: 805px;
+  left: 970px;
+}
+hr {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
+.maz {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(3, 3, 3);
+  border-radius: 50%;
+  bottom: 100px;
+  left: 200px;
+  z-index: -4;
+}
+.maz_1 {
+  width: 150px;
+  height: 160px;
+  background: rgb(189, 188, 188);
+  border-radius: 50%;
+  z-index: -4;
+  left: 8px;
+  bottom: 5px;
+}
+
+.maz_2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(12, 12, 12);
+  right: 100px;
+  z-index: -17;
+  left: 10px;
+}
+.maz_3 {
+  width: 200px;
+  height: 210px;
+  background: rgb(189, 188, 188);
+  border-radius: 50%;
+  z-index: -20;
+  left: 8px;
+  bottom: 5px;
+}
+.maz_4 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(7, 7, 7);
+  right: 158px;
+  z-index: -20;
+  bottom: 180px;
+}
+.maz_5 {
+  width: 150px;
+  height: 150px;
+  background: rgb(189, 188, 188);
+  border-radius: 50%;
+  z-index: -17;
+  right: 8px;
+  bottom: 2px;
+}
